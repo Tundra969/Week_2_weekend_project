@@ -1,0 +1,87 @@
+body{
+    font-family: arial;
+}
+#mainContent {
+    width: 1000px;
+    height: 400px;
+    float: none;
+    background-color: #e9e8b1;
+    border: 1px solid gray;
+    margin: 35px auto;
+    padding: 15px;
+}
+
+#navigation{
+    width: 1000px;
+    float: none;
+    margin: 20px auto;
+    padding: 20px;
+    margin-left: 270px;
+}
+
+.btn {
+    width: 100px;
+    background-color: #9ba8e9;
+    text-align: center;
+    display: inline-block;
+    float: center;
+}
+
+.index-point {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #9d9487;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.index-point-active {
+    background-color: red;
+}
+
+.classmateName{
+    color: #e92132;
+    font-size: 65px;
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 26px;
+    color: #091559;
+    font-style: oblique;
+    text-align: center;
+    width: 800px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+a {
+    width: 800px;
+    color: #265a88;
+    font-size: 35px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#prev{
+    position: relative;
+    border: 2px solid #666;
+    border-radius: 5px;
+}
+
+#next{
+    position: relative;
+    border: 2px solid #666;
+    border-radius: 5px;
+}
+
+.controls{
+    margin-left: 25%;
+}
+
+.main{
+    border: 1px solid #666;
+}
